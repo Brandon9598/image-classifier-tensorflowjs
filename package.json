@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Brandon9598/image-classifier-tensorflowjs/issues"
   },
-  "homepage": "https://github.com/Brandon9598/image-classifier-tensorflowjs#readme"
+  "homepage": "https://github.com/Brandon9598/image-classifier-tensorflowjs#readme",
+  "dependencies": {
+    "serve": "^11.1.0"
+  }
 }
