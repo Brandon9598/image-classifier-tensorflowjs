@@ -1,0 +1,26 @@
+{
+  "name": "image-classifier-tensorflowjs",
+  "version": "1.0.0",
+  "description": "image classifier using tensorflow.js",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon9598/image-classifier-tensorflowjs.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "image",
+    "classifier",
+    "siraj"
+  ],
+  "author": "Brandon Hancock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brandon9598/image-classifier-tensorflowjs/issues"
+  },
+  "homepage": "https://github.com/Brandon9598/image-classifier-tensorflowjs#readme"
+}
