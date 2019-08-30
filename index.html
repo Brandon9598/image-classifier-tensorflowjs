@@ -9,9 +9,9 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css"> -->
-
+        <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+        
+        <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="https://unpkg.com/@tensorflow/tfjs"></script>
         <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
@@ -27,9 +27,16 @@
                 <div class="col">
                     <!-- Upload image section for user -->
                     <h1>Select Image</h1>
-                    <input type="file" accept="image/*" id="file-input">
                     <!-- Add an image that we will use to test -->
-                    <img id="displayImg" crossOrigin  width=400 height=400/>
+                    <form class="md-form" action="#">
+                        <div class="file-field">
+                            <div class="btn btn-primary btn-sm float-left">
+                                <span>Choose files</span>
+                                <input id="file-input" type="file" multiple>
+                            </div>
+                        </div>
+                    </form>
+                    <img id="displayImg" crossOrigin  width=396 height=396/>
                 </div>
                 <div class="col">
                     <!-- Add an image that we will use to test -->
